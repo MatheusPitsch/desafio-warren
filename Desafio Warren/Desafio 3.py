@@ -1,12 +1,10 @@
 ''''''
 from random import Random
-
 import numpy
 
-
+matriz_vetor_aleatorio = []
 vetor = []
-soma = 0
-j= 0
+j = 0
 
 valor = int(input('Digite um valor: '))
 
@@ -22,10 +20,14 @@ while True:
         valor_aleatorio = numpy.random.choice(vetor)
         vetor_aleatorio.append(valor_aleatorio)
     
+    soma = 0
     for i in vetor_aleatorio:
-        if soma == valor:
+        soma += i
+        if soma == valor:  
             print(vetor_aleatorio)
             j += 1
-    
-    if j == 10:
+    if j == 2:
         break
+
+#PRECISO ACHAR UMA FORMA DE NÃO MOSTRA REPETIDOS RESULTADOS
+#PRECISO ACHAR UM MODO DE PARA O WHILE
