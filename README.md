@@ -19,7 +19,7 @@
 * [Como usar](#como-usar)
 * [Tecnologias](#tecnologias)
 
-Tabela de conteúdos
+**Tabela de conteúdos**
 =================
 <!--ts-->
    * [Sobre](#Sobre)
