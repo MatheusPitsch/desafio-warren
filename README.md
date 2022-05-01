@@ -16,7 +16,7 @@
    * [Tabela de Conteudo](#tabela-de-conteudo)
    * [Instalação](#instalacao)
    * [Como usar](#como-usar)
-      * [Pré-requisitos](#pre-requisitos)
+      * [Pré-requisitos](#Pré-requisitos)
       * [Local files](#local-files)
       * [Remote files](#remote-files)
       * [Multiple files](#multiple-files)
@@ -25,7 +25,7 @@
    * [Tecnologias](#tecnologias)
 <!--te-->
 
-**Pré-requisitos**
+**Pré-requisitos** 
 
-Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas: 
+Antes de começar, você vai precisar ter instalado em sua máquina a seguinte ferramenta: 
 Editor para trabalhar com o código [VSCode](https://code.visualstudio.com/)
