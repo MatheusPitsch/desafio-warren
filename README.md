@@ -25,7 +25,7 @@
    * [Tecnologias](#tecnologias)
 <!--te-->
 
-#Pré-requisitos
+# Pré-requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina a seguinte ferramenta: 
 Editor para trabalhar com o código [VSCode](https://code.visualstudio.com/)
