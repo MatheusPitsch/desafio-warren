@@ -1,34 +1,36 @@
-''''''
-from random import Random
-import numpy
+'''
+Esse código tem como objetivo mostrar as combinações com o menor número de elementos,que somados dão um valor X, que será definido pelo usuário. 
+'''
 
-matriz_vetor_aleatorio = []
-vetor = []
-j = 0
+from itertools import product
 
+#Aqui você digitara um valor aleatório que será usado como resultado final.
 valor = int(input('Digite um valor: '))
 
-for i in range(3):
-    valor_soma = int(input('Digite um valor: '))
-    vetor.append(valor_soma)
+#Você irá colocar os 3 valores que irão gerar diversas combinações e somar.
+valores_lista = str(input('Digite os 3 valores que serão usados para a soma (SOMENTE OS NUMEROS):')) 
 
-while True:
-    
-    vetor_aleatorio = []
+#A função 'product' irá gerar todas as combinações possíveis com 3 valores. 
+combinacoes = product(valores_lista, repeat = 3)
 
-    for i in range(3):
-        valor_aleatorio = numpy.random.choice(vetor)
-        vetor_aleatorio.append(valor_aleatorio)
-    
+#Lista de combinações recebe todas as combinações.
+lista_combinacoes = list(combinacoes)
+
+matriz_combinacoes = []
+
+#Todas as combinações estão no formato String, nesse formato as combinações irão virar Inteiro.
+for indice in lista_combinacoes:
+    vetor_combinacoes = []
+    for valores in indice:
+        vetor_combinacoes.append(int(valores))
+    matriz_combinacoes.append(vetor_combinacoes)
+
+#Ira somar todas as combinações e verificar se a soma entre os valores é igual o valor digitado no começo. 
+for indece in matriz_combinacoes:
     soma = 0
-    for i in vetor_aleatorio:
-        soma += i
-        if soma == valor:  
-            print(vetor_aleatorio)
-            j += 1
-    if j == 2:
-        break
+    for valores in indece:
+        soma += valores
+        if soma == valor:
+            print(f'A soma da combinação {indece} é igual a {valor}.')
 
-#PRECISO ACHAR UMA FORMA DE NÃO MOSTRA REPETIDOS RESULTADOS
-#PRECISO ACHAR UM MODO DE PARA O WHILE
-#PERMUTATIONS
+print('Programa Finalizado ✔')

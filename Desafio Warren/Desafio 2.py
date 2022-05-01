@@ -1,38 +1,50 @@
-''''''
+'''
+Esse código tem como objetivo verificar a quantidade de alunos que chegaram antes da aula começar, para saber se havera aula ou não.
+'''
+
+#Definindo as variaveis.
 chegada_normal = 0
 chegada_atrasada = 0
 quantidade_alunos = 0
 
-quantidade_alunos_necessario = int(input('Digite a quantidade de alunos que deve ter para começar a aula: '))
+#Recebera a informação de quantos alunos é necesasrio para começar a aula.
+quantidade_alunos_necessario = int(input('Digite a quantidade de alunos que deverá ter para começar a aula: '))
 
 while True:
 
-
+    #Verificara se o valor não é menor ou igual a 0.
     if quantidade_alunos_necessario <= 0:
         print('Quantidade de alunos não aceita.')
         break
 
     else:
 
+        #Contador de alunos.
         quantidade_alunos += 1
 
-        horario_chegada = int(input(f'Digite o horario de chegada do {quantidade_alunos}° aluno: ')) 
+        #Horario de chegado de cada aluno.
+        horario_chegada = int(input(f'Digite o horário de chegada do {quantidade_alunos}° aluno: ')) 
 
+        #verificara se o aluno chegou antes da aula começar ou atrasado.
         if horario_chegada <= 0:
             chegada_normal += 1
         else:
             chegada_atrasada += 1
 
+        #Perguntara se você deseja finalizar.
         saida = str(input('Deseja continuar SIM/NÃO.\n')).upper()
         if saida == 'NÃO':
             break
         else:
             continue
 
+#Verificara se os alunos que chegaram é o sufuciente para começar a aula.
 if quantidade_alunos_necessario > 0:
+   
     if chegada_normal >= quantidade_alunos_necessario:
         print('Aula normal.')
     else:
         print('Aula cancelada.')
+    
     print(f'Chegaram antes da aula começar {chegada_normal} alunos.')
     print(f'Chegaram atrasados {chegada_atrasada} alunos.')

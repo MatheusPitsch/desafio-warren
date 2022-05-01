@@ -1,13 +1,12 @@
 ''''''
-i=0
+i = 0
 for valor in range(1000000):
     
     soma = 0
     
-    valor_inverso = int(str(valor)[::-1])
-    valor_inverso = (f"{valor_inverso:02d}")
-
-    if '0' in valor_inverso:
+    valor_inverso = (str(valor)[::-1])
+    
+    if '0' in valor_inverso[0]:
         continue
     
     valor_inverso = int(valor_inverso)
