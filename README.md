@@ -6,13 +6,13 @@
   <b> Desafio Warren Tech Academy </b>
 </p>
 
-## Descrição do Projeto
+## Descrição
 <p align="center">O projeto desenvolvido é um desafio de programação para avaliar o conhecimento, proposto pela empresa Warren, com o objetivo de selecionar novos talentos na área.</p>
 
 ## Tabela de conteúdos
 
 <p align="center">
- <a href="#Descrição do Projeto">Descrição do Projeto</a> •
+ <a href="#Descrição">Descrição</a> •
  <a href="#roadmap">Roadmap</a> • 
  <a href="#Pré-requisitos">Pré-requisitos</a> • 
  <a href="#contribuicao">Contribuição</a> • 
