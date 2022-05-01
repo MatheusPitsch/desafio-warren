@@ -14,7 +14,7 @@
 <p align="center">
  <a href="#objetivo">Objetivo</a> •
  <a href="#roadmap">Roadmap</a> • 
- <a href="#Pré-requisitos">Tecnologias</a> • 
+ <a href="#Pré-requisitos">Pré-requisitos</a> • 
  <a href="#contribuicao">Contribuição</a> • 
  <a href="#licenc-a">Licença</a> • 
  <a href="#autor">Autor</a>
