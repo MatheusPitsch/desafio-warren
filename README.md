@@ -8,7 +8,7 @@
   <b> Desafio Warren Tech Academy </b>
 </p>
 
-## Descrição do Projeto
+# Descrição do Projeto
 <p align="center">Escrever uma breve descrição</p>
 
 **Tabela de conteúdos**
