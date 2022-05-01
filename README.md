@@ -12,7 +12,7 @@
 ## Tabela de conteúdos
 
 <p align="center">
- <a href="#objetivo">Objetivo</a> •
+ <a href="#Descrição do Projeto">Descrição do Projeto</a> •
  <a href="#roadmap">Roadmap</a> • 
  <a href="#Pré-requisitos">Pré-requisitos</a> • 
  <a href="#contribuicao">Contribuição</a> • 
