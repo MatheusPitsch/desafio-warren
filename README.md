@@ -8,10 +8,10 @@
   <b> Desafio Warren Tech Academy </b>
 </p>
 
-**Descrição do Projeto**
+## Descrição do Projeto
 <p align="center">O projeto desenvolvido é um desafio de programação para avaliar o conhecimento, proposto pela empresa Warren, com o objetivo de selecionar novos talentos na área.</p>
 
-**Tabela de conteúdos**
+## Tabela de conteúdos
 
 * [Sobre](#Sobre)
 * [Tabela de Conteudo](#tabela-de=conteudo)
@@ -19,7 +19,7 @@
 * [Como usar](#como-usar)
 * [Tecnologias](#tecnologias)
 
-**Tabela de conteúdos**
+## Tabela de conteúdos
 =================
 <!--ts-->
    * [Sobre](#Sobre)
