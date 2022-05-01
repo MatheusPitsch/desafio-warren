@@ -31,6 +31,6 @@ for indece in matriz_combinacoes:
     for valores in indece:
         soma += valores
         if soma == valor:
-            print(f'A soma da combinação {indece} é igual a {valor}.')
+            print(f'A soma da combinação {indece} é igual a {valor}.\n')
 
 print('Programa Finalizado ✔')

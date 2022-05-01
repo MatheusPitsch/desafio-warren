@@ -32,8 +32,9 @@ while True:
             chegada_atrasada += 1
 
         #Perguntara se você deseja finalizar.
-        saida = str(input('Deseja continuar SIM/NÃO.\n')).upper()
-        if saida == 'NÃO':
+        saida = str(input('Deseja continuar S/N.\n')).upper()
+        
+        if saida == 'N':
             break
         else:
             continue
@@ -42,9 +43,17 @@ while True:
 if quantidade_alunos_necessario > 0:
    
     if chegada_normal >= quantidade_alunos_necessario:
-        print('Aula normal.')
+        print('Aula normal.\n')
     else:
-        print('Aula cancelada.')
+        print('Aula cancelada.\n')
     
     print(f'Chegaram antes da aula começar {chegada_normal} alunos.')
-    print(f'Chegaram atrasados {chegada_atrasada} alunos.')
+    
+    if chegada_atrasada == 0:
+        print(f'Nenhum aluno chegou atrasado.\n')
+    elif chegada_atrasada == 1:
+        print(f'Chegaou atrasado {chegada_atrasada} aluno.\n')
+    else:
+        print(f'Chegaram atrasados {chegada_atrasada} alunos.\n')
+
+print('Programa Finalizado ✔')
