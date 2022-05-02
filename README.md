@@ -47,7 +47,7 @@ git clone https://github.com/MatheusPitsch/desafio-warren.git desafio-matheuspit
 cd desafio-matheuspitsch
 
 # Abre o VSCode.
-Code desafio-matheuspitsch/
+Code Desafio\ Warren/
 
 # Escolha um desafio no canto superior esquerdo. 
 
