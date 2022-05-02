@@ -29,7 +29,7 @@ Editor para trabalhar com o código [VSCode](https://code.visualstudio.com/Downl
 
 # Rodando os Desafios 
 
-```bash
+```python
 # Abra o Git Bash no menu windows.
 
 # Clone este repositório.
