@@ -6,10 +6,10 @@
   <b> Desafio Warren Tech Academy </b>
 </p>
 
-## Descrição
+# Descrição
 <p align="center">O projeto desenvolvido é um desafio de programação para avaliar o conhecimento, proposto pela empresa Warren, com o objetivo de selecionar novos talentos na área.</p>
 
-## Tabela de conteúdos
+### Tabela de conteúdos
 
 <p align="center">
  <a href="#Descrição">Descrição</a> •
@@ -20,14 +20,14 @@
  <a href="#Autor">Autor</a>
 </p>
 
-# Pré-requisitos
+## Pré-requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas: 
 [Git](https://git-scm.com/downloads), [Python](https://www.python.org/downloads/).
 
 Editor para trabalhar com o código [VSCode](https://code.visualstudio.com/Download)
 
-# Rodando os Desafios 
+## Rodando os Desafios 
 
 ```bash
 # Abra o Git Bash no menu windows.
