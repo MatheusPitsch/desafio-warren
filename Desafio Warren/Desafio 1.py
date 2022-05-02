@@ -1,5 +1,5 @@
 '''
-O código tem como objetivo somar um valor X e o inverso dele, sendo que não podera conter zero no inicio de X ou valor inverso e 
+O código tem como objetivo somar um valor X e o inverso dele, sendo que não poderá conter zero no inicio de X ou valor inverso e 
 o resultado da soma devera ser impar.
 '''
 
@@ -14,11 +14,11 @@ for valor in range(1000000):
     #Transformando valor em string, invertendo ele e adicionando esse valor a variavel valor_inverso.
     valor_inverso = (str(valor)[::-1])
     
-    #Se o valor inverso conter zero no inicio o codigo pulara esse valor e dara continuidade.
+    #Se o valor inverso conter zero no inicio o código ira pular esse valor e dara continuidade.
     if '0' in valor_inverso[0]:
         continue
     
-    #Transformando o valor inverso em inteiro para poder fazer o cauculo.
+    #Transformando o valor inverso em inteiro para poder fazer o cálculo.
     valor_inverso = int(valor_inverso)
     
     #Somando os valores

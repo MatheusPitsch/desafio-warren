@@ -1,5 +1,6 @@
 '''
-Esse código tem como objetivo verificar a quantidade de alunos que chegaram antes da aula começar, para saber se havera aula ou não.
+Esse código tem como objetivo verificar a quantidade de alunos que chegaram antes da aula começar,
+para saber se haverá aula ou não.
 '''
 
 #Definindo as variaveis.
@@ -7,8 +8,8 @@ chegada_normal = 0
 chegada_atrasada = 0
 quantidade_alunos = 0
 
-#Recebera a informação de quantos alunos é necesasrio para começar a aula.
-quantidade_alunos_necessario = int(input('Digite a quantidade de alunos que deverá ter para começar a aula: '))
+#Recebera a informação de quantos alunos é necessário para começar a aula.
+quantidade_alunos_necessario = int(input('Digite a quantidade necessário de alunos para começar a aula: '))
 
 while True:
 
@@ -22,10 +23,10 @@ while True:
         #Contador de alunos.
         quantidade_alunos += 1
 
-        #Horario de chegado de cada aluno.
+        #Horário de chegada de cada aluno.
         horario_chegada = int(input(f'Digite o horário de chegada do {quantidade_alunos}° aluno: ')) 
 
-        #verificara se o aluno chegou antes da aula começar ou atrasado.
+        #verificara se o aluno chegou antes da aula começar ou se está atrasado.
         if horario_chegada <= 0:
             chegada_normal += 1
         else:
@@ -39,7 +40,7 @@ while True:
         else:
             continue
 
-#Verificara se os alunos que chegaram é o sufuciente para começar a aula.
+#Verificara se os alunos que chegaram são o suficiente para começar a aula.
 if quantidade_alunos_necessario > 0:
    
     if chegada_normal >= quantidade_alunos_necessario:
@@ -52,7 +53,7 @@ if quantidade_alunos_necessario > 0:
     if chegada_atrasada == 0:
         print(f'Nenhum aluno chegou atrasado.\n')
     elif chegada_atrasada == 1:
-        print(f'Chegaou atrasado {chegada_atrasada} aluno.\n')
+        print(f'Chegou atrasado {chegada_atrasada} aluno.\n')
     else:
         print(f'Chegaram atrasados {chegada_atrasada} alunos.\n')
 
