@@ -6,7 +6,7 @@
   <b> Desafio Warren Tech Academy </b>
 </p>
 
-# Descrição
+## Descrição
 <p align="center">O projeto desenvolvido é um desafio de programação para avaliar o conhecimento, proposto pela empresa Warren, com o objetivo de selecionar novos talentos na área.</p>
 
 ## Tabela de conteúdos
@@ -56,7 +56,7 @@ py '.\Desafio 2.py'
 # Execute o de Desafio 3.
 py '.\Desafio 3.py'
 ```
-# Tecnologias
+## Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
@@ -64,7 +64,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Git](https://git-scm.com/)
 - [Python](https://www.python.org/)
 
-# Autor
+## Autor
 
 Feito por Matheus Pitsch 
 
