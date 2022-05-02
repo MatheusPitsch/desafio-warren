@@ -23,7 +23,8 @@
 # Pré-requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas: 
-[Git](https://git-scm.com), [Python](https://www.python.org/downloads/), 
+[Git](https://git-scm.com), [Python](https://www.python.org/downloads/).
+
 Editor para trabalhar com o código [VSCode](https://code.visualstudio.com/)
 
 # Rodando os Desafios 
