@@ -66,7 +66,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 # Autor
 
-Feito por Matheus Pitsch 👋🏽 Entre em contato!
+Feito por Matheus Pitsch 
 
 <div>
   <a href="https://www.linkedin.com/in/matheuspitsch/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
