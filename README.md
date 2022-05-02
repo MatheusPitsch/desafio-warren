@@ -13,7 +13,6 @@
 
 <p align="center">
  <a href="#Descrição">Descrição</a> •
- <a href="#roadmap">Roadmap</a> • 
  <a href="#Pré-requisitos">Pré-requisitos</a> • 
  <a href="#Rodando-os-Desafios">Rodando os Desafios</a> • 
  <a href="#Tecnologias">Tecnologias</a> • 
