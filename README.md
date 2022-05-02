@@ -15,7 +15,7 @@
  <a href="#Descrição">Descrição</a> •
  <a href="#roadmap">Roadmap</a> • 
  <a href="#Pré-requisitos">Pré-requisitos</a> • 
- <a href="#Rodando-os-Desafios">Rodando-os-Desafios</a> • 
+ <a href="#Rodando-os-Desafios">Rodando os Desafios</a> • 
  <a href="#licenc-a">Licença</a> • 
  <a href="#autor">Autor</a>
 </p>
