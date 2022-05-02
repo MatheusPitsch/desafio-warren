@@ -26,7 +26,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 Essencial para clonagem do projeto [Git](https://git-scm.com), 
 Editor para trabalhar com o código [VSCode](https://code.visualstudio.com/)
 
-# Rodando os Desafios 👨‍💻
+# Rodando os Desafios 
 
 ```bash
 # Abra o Git Bash no menu windows.
