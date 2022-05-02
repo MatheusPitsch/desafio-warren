@@ -22,5 +22,36 @@
 
 # Pré-requisitos
 
-Antes de começar, você vai precisar ter instalado em sua máquina a seguinte ferramenta: 
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas: 
+[Git](https://git-scm.com),
 Editor para trabalhar com o código [VSCode](https://code.visualstudio.com/)
+
+### 👨‍💻 Rodando os Desafios
+
+```bash
+# Abra o Git Bash no menu windows.
+
+# Clone este repositório.
+git clone https://github.com/MatheusPitsch/desafio-warren.git desafio-matheuspitsch
+
+# Acesse a pasta do projeto.
+cd desafio-matheuspitsch
+
+# Abre o VSCode.
+Code desafio-matheuspitsch/
+
+# Escolha um desafio no canto superior esquerdo. 
+
+# Clique "Ctrl" + " Aspas (") ", para abrir o terminal do VSCode.
+Ctrl + ' " '
+
+# Entre na pasta do desafio.
+cd '.\Desafio Warren\'
+
+# Execute o de Desafio 1.
+py '.\Desafio 1.py'
+# Execute o de Desafio 2.
+py '.\Desafio 2.py'
+# Execute o de Desafio 3.
+py '.\Desafio 3.py'
+```
