@@ -16,15 +16,16 @@
  <a href="#roadmap">Roadmap</a> • 
  <a href="#Pré-requisitos">Pré-requisitos</a> • 
  <a href="#Rodando-os-Desafios">Rodando os Desafios</a> • 
- <a href="#licenc-a">Licença</a> • 
- <a href="#autor">Autor</a>
+ <a href="#Tecnologias">Tecnologias</a> • 
+ <a href="#Autor">Autor</a>
 </p>
 
 # Pré-requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas: 
-[Git](https://git-scm.com), [Python](https://www.python.org/downloads/).
-Editor para trabalhar com o código [VSCode](https://code.visualstudio.com/)
+[Git](https://git-scm.com/downloads), [Python](https://www.python.org/downloads/).
+
+Editor para trabalhar com o código [VSCode](https://code.visualstudio.com/Download)
 
 # Rodando os Desafios 
 
@@ -55,3 +56,20 @@ py '.\Desafio 2.py'
 # Execute o de Desafio 3.
 py '.\Desafio 3.py'
 ```
+# Tecnologias
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+- [VSCode](https://code.visualstudio.com/)
+- [Git](https://git-scm.com/)
+- [Python](https://www.python.org/)
+
+# Autor
+
+Feito por Matheus Pitsch 👋🏽 Entre em contato!
+
+<div>
+  <a href="https://www.linkedin.com/in/matheuspitsch/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
+  <a href="mailto:matheuspitschh@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+  <a href="https://www.instagram.com/_pitsch_/" target="_blank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
+</div>
