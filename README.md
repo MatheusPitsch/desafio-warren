@@ -9,7 +9,7 @@
 # Descrição
 <p align="center">O projeto desenvolvido é um desafio de programação para avaliar o conhecimento, proposto pela empresa Warren, com o objetivo de selecionar novos talentos na área.</p>
 
-### Tabela de conteúdos
+## Tabela de conteúdos
 
 <p align="center">
  <a href="#Descrição">Descrição</a> •
