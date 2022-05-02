@@ -23,9 +23,9 @@
 ## Sobre Warren
   A empresa é uma corretora de valores e gestora de investimentos que foi fundada no ano de 2014,
 no Vale do Silício.
-  Com o objetivo de apresentar soluções de investimentos sofisticadas,
-com a facilidade de operar com democracia e transparência, se desenvolveu até o aonde de 2016,
-quando uma mudança na legislação brasileira permitiu a abertura do mercado de investimentos para novas empresas, assim a Warren transferiu sua sede para Porto Alegre, além disso a empresa se destaca por suas taxas mais acessíveis.
+  Com o objetivo de apresentar soluções de investimentos sofisticadaos,
+com a facilidade de operar com democracia e transparência. Desenvolveu-se até o ano de 2016,
+quando uma mudança na legislação brasileira permitiu a abertura do mercado de investimentos para novas empresas, assim a Warren transferiu sua sede para Porto Alegre. Além disso, a empresa se destaca por suas taxas mais acessíveis.
 
 
 ## Pré-requisitos
