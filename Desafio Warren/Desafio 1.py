@@ -3,7 +3,7 @@ O código tem como objetivo somar um valor X e o inverso dele, sendo que não po
 o resultado da soma devera ser impar.
 '''
 
-#Criando a variavel indice.
+#Criando a variavel índice.
 indice = 0
 
 #Ira gerar todos os valor de zero a um milhão.

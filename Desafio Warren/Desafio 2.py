@@ -23,7 +23,7 @@ while True:
         #Contador de alunos.
         quantidade_alunos += 1
 
-        #Horário de chegada de cada aluno.
+        #Receberá o horário de chegada de cada aluno.
         horario_chegada = int(input(f'Digite o horário de chegada do {quantidade_alunos}° aluno: ')) 
 
         #verificara se o aluno chegou antes da aula começar ou se está atrasado.

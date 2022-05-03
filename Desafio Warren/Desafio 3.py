@@ -1,14 +1,14 @@
 '''
-Esse código tem como objetivo mostrar as combinações com o menor número de elementos, 
+O seguinte código tem como objetivo mostrar as combinações com o menor número de elementos, 
 que somados dão um valor X, que será definido pelo usuário. 
 '''
 
 from itertools import product
 
-#Aqui você digitara um valor aleatório que será usado como resultado final.
+#Será digitado um valor aleatório que será usado como resultado final.
 valor = int(input('Digite um valor: '))
 
-#Você irá colocar os 3 valores que irão gerar diversas combinações e somar.
+#Informe os 3 valores que irão gerar diversas combinações e somar.
 valores_lista = str(input('Digite os 3 valores que serão usados para a soma (SOMENTE OS NÚMEROS):')) 
 
 #A função 'product' irá gerar todas as combinações possíveis com 3 valores. 
@@ -19,7 +19,7 @@ lista_combinacoes = list(combinacoes)
 
 matriz_combinacoes = []
 
-#Todas as combinações estão no formato String, nesse formato as combinações irão virar Inteiro.
+#Todas as combinações estão no formato String, nesse for as combinações irão virar Inteiro.
 for indice in lista_combinacoes:
     vetor_combinacoes = []
     for valores in indice:
